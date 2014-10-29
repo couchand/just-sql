@@ -1,0 +1,32 @@
+{
+  "name": "just-sql",
+  "version": "0.0.1",
+  "description": "a simple sql compiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/couchand/just-sql"
+  },
+  "keywords": [
+    "sql",
+    "coffeescript",
+    "syntax"
+  ],
+  "author": "Andrew Couch <just-sql@andrewcou.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/couchand/just-sql/issues"
+  },
+  "homepage": "https://github.com/couchand/just-sql",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1"
+  }
+}
